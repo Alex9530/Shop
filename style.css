@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+#productlist {
+  font-family: "Poppins", sans-serif;
+  background-color: #e6e5d6;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  justify-content: space-between;
+  gap: 20px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: "Protest Guerrilla", sans-serif;
+  color: darkblue;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 50px auto;
+}
+.addBtn {
+  color: #fff;
+  background-color: #000;
+  border-radius: 5px;
+  height: 30px;
+}
+#ok {
+  width: 100px;
+  height: 30px;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+}
+#productlist {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+#productlist div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 20px;
+}
+
+h3 {
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  background-color: rgb(235, 219, 199);
+  border-radius: 20px;
+}
+
+#productlist img {
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
+}
+#productlist button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #e08787;
+  border: 1px solid black;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+#productlist button:hover {
+  color: #fff;
+  background-color: #000;
+}
+#pagination {
+  display: flex;
+  justify-content: center;
+}
+#pagination button {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 30%;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+#pagination button:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.container_right {
+  width: 400px;
+  height: 484px;
+  background-image: url(./Rectangle\ 3463273.png);
+  object-fit: contain;
+}
+.svg {
+  width: 70px;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+form {
+  margin-top: 100px;
+  width: 300px;
+  height: 192px;
+}
